@@ -1,0 +1,103 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    height: calc(100% - 50px);
+    height: -moz-calc(100% - 50px);
+    height: -webkit-calc(100% - 50px);
+    z-index: 1;
+    top: 15%;
+}
+
+#myCarousel {
+    width: 60%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+h1 a {
+    color: black;
+    font-family: 'Parisienne', serif;
+    font-size: 96px;
+}
+
+h1 a:hover { 
+    color: black;
+    text-decoration: none;
+}
+
+#menu {
+    position: absolute;
+    width: 100%;
+    top: calc(100% - 50px);
+    top: -moz-calc(100% - 50px);
+    top: -webkit-calc(100% - 50px);
+    left: 0px;
+    background:#fff;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+#menu.top {
+    position: fixed;
+    top: -3px;
+    float: left;
+}
+
+#content {
+    position: absolute;
+    background: white;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    display: block;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    z-index: 50;
+}
+
+.container {
+    background: white;
+}
+
+figcaption {
+    text-align: center;
+}
+
+section:not(:last-of-type) {
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+    border-bottom: solid black 2px;
+}
+    
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+}
+
+#gallery a {
+   
+    
+    max-height: 150px;
+    height: 150px;
+}
