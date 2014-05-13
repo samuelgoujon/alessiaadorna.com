@@ -96,8 +96,10 @@ footer {
 }
 
 #gallery a {
-   
-    
     max-height: 150px;
     height: 150px;
+}
+
+#contact {
+    vertical-align: middle;
 }
