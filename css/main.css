@@ -18,7 +18,7 @@ body {
 }
 
 #myCarousel {
-    width: 60%;
+    width: 40%;
     margin: auto;
     top: 0;
     bottom: 0;
@@ -29,7 +29,7 @@ body {
 h1 a {
     color: black;
     font-family: 'Parisienne', serif;
-    font-size: 96px;
+    font-size: 64px;
 }
 
 h1 a:hover { 
