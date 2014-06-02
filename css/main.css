@@ -18,7 +18,7 @@ body {
 }
 
 #myCarousel {
-    width: 40%;
+    width: 25%;
     margin: auto;
     top: 0;
     bottom: 0;
@@ -96,8 +96,8 @@ footer {
 }
 
 #gallery a {
-    max-height: 150px;
-    height: 150px;
+    max-height: 200px;
+    height: 175px;
 }
 
 #contact {
