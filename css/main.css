@@ -30,7 +30,7 @@ body {
 
 h1 a {
     color: black;
-    font-family: 'Parisienne', serif;
+    font-family: 'Istok Web', serif;
     font-size: 64px;
 }
 
@@ -97,6 +97,14 @@ section:not(:last-of-type) {
 #gallery a {
     max-height: 200px;
     height: 175px;
+}
+
+#history img {
+    margin-top: 50px;
+}
+
+#history figcaption {
+    margin-bottom: 50px; 
 }
 
 /* Contact */
