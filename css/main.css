@@ -10,6 +10,7 @@ body {
 /* Header */
 
 #header {
+    background: url('img/background.jpg') no-repeat fixed center;
     position: fixed;
     width: 100%;
     height: calc(100% - 50px);
@@ -17,7 +18,6 @@ body {
     height: -webkit-calc(100% - 50px);
     z-index: 1;
     top: 15%;
-    background: url(img/home 5.jpg) no-repeat bottom center scroll;
 }
 
 #myCarousel {
@@ -87,10 +87,10 @@ h1:hover:before {
     transition: all 1s;
     z-index: 50;
 }
-/*
+
 .container {
     background: white;
-}*/
+}
 
 figcaption {
     text-align: center;
