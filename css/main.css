@@ -14,7 +14,7 @@ html, body {
 #header {
     position: fixed;
     width: 100%;
-
+    height: auto;
 }
 
 #myCarousel {
