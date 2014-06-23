@@ -14,11 +14,11 @@ html, body {
 #header {
     position: fixed;
     width: 100%;
-    height: auto;
+
 }
 
 #myCarousel {
-    width: 100%;
+    width: 70%;
     margin: auto;
     top: 0;
     left: 0;
