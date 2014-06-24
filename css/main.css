@@ -13,16 +13,14 @@ html, body {
 
 #header {
     position: fixed;
-    width: 100%;
-    height: auto;
 }
 
-#myCarousel {
+.carousel .item {
     width: 100%;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
+}
+
+.carousel .item img {
+    width: 100%;
 }
 
 h1 {
@@ -32,11 +30,11 @@ h1 {
 }
 
 .logo {
-  position: absolute;
-  top: 60%;
-  text-align: center;
-  width: 100%;
-  z-index: 1;
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
 }
 
 /* Navbar */
@@ -47,10 +45,9 @@ h1 {
     top: calc(100% - 50px);
     top: -moz-calc(100% - 50px);
     top: -webkit-calc(100% - 50px);
-    left: 0;
     background: white;
-    border-top: 3px solid #000;
-    border-bottom: 3px solid #000;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     overflow: hidden;
     z-index: 2;
 }
