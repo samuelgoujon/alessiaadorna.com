@@ -13,6 +13,7 @@ html, body {
 
 #header {
     position: fixed;
+    z-index: 0;
 }
 
 .carousel .item {
