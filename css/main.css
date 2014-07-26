@@ -13,27 +13,30 @@ html, body {
 
 #header {
     position: fixed;
+    top: 30%;
+    left: 30%;
+    right: 30%;
     z-index: 0;
 }
 
 .carousel .item {
     width: 100%;
-        height: auto;
+    height: auto;
 }
 
 .carousel .item img {
     width: 100%;
-        height: auto;
+    height: auto;
 }
 
 h1 {
-    color: white;
+    color: black;
     font-family: 'Istok Web', serif;
-    font-size: 96px;
+    font-size: 76px;
 }
 
 .logo {
-    position: absolute;
+    position: fixed;
     top: 70%;
     text-align: center;
     width: 100%;
