@@ -29,20 +29,6 @@ html, body {
     height: auto;
 }
 
-h1 {
-    color: black;
-    font-family: 'Istok Web', serif;
-    font-size: 76px;
-}
-
-.logo {
-    position: fixed;
-    top: 70%;
-    text-align: center;
-    width: 100%;
-    z-index: 1;
-}
-
 /* Navbar */
 
 #menu {
