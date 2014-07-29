@@ -7,15 +7,15 @@ $(document).load(function() {});
 $(document).ready(function() {
 
     $(window).scroll(function() {
-         if ($(window).scrollTop() > $(window).height() -50) {
-            menu.addClass('top');
-            if(tab.parent().find(".active").size() === 0)
-                tab.first().addClass('active');
-         }
-         else {
-            menu.removeClass('top');
-            tab.removeClass('active');
-         }
+        if ($(window).scrollTop() > $(window).height() -50) {
+        menu.addClass('top');
+        if(tab.parent().find(".active").size() === 0)
+            tab.first().addClass('active');
+        }
+        else {
+        menu.removeClass('top');
+        tab.removeClass('active');
+        }
     });
 
     menuCollapsible.on('show.bs.collapse', function () {
