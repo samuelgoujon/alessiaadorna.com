@@ -11,6 +11,7 @@ html, body {
 
 /* Header */
 
+
 #header {
     position: fixed;
     top: 30%;
@@ -30,6 +31,12 @@ html, body {
 }
 
 /* Navbar */
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2.2em;
+    
+}
 
 #menu {
     position: absolute;
