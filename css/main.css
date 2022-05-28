@@ -1,0 +1,106 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+#header {
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    right: 30%;
+    z-index: 0;
+}
+
+.carousel .item {
+    width: 100%;
+    height: auto;
+}
+
+.carousel .item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Navbar */
+
+#menu {
+    position: absolute;
+    width: 100%;
+    top: calc(100% - 50px);
+    top: -moz-calc(100% - 50px);
+    top: -webkit-calc(100% - 50px);
+    background: white;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#menu.top {
+    position: fixed;
+    top: -3px;
+    float: left;
+}
+
+/* Content */
+
+#content {
+    background: white;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    display: block;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    z-index: 1;
+}
+
+figcaption {
+    text-align: center;
+}
+
+section:not(:last-of-type) {
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+    border-bottom: solid black 2px;
+}
+
+#gallery a {
+    max-height: 200px;
+    height: 175px;
+}
+
+#history img {
+    margin-top: 50px;
+}
+
+#history figcaption {
+    margin-bottom: 50px; 
+}
+
+/* Contact */
+
+#contact {
+    vertical-align: middle;
+}
+
+/* Footer */
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+}
